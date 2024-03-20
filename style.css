@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url("bourse.webp");
+}
+
+#container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    background-color: rgba(100, 100, 100, .7);
+}
+
+label {
+    color: white;
+    font-size: large;
+}
+
+input {
+    height: 30px;
+}
+
+p {
+    position: absolute;
+    color: white;
+    font-size: medium;
+    bottom: 80px;
+}
